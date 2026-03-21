@@ -15,6 +15,8 @@ export default defineGkdApp({
         {
           actionCd: 500,
           matches: '[vid="xm_ad_host_count_down_text"][visibleToUser=true]',
+          snapshotUrls:
+            'http://localhost:8081/i?url=http://localhost:8081/snapshot/snapshot-1774077303633.zip',
         },
       ],
     },
