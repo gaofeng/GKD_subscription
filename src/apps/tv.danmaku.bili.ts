@@ -17,8 +17,7 @@ export default defineGkdApp({
         {
           actionCd: 500,
           matches: '[vid="count_down" || vid="skip"][visibleToUser=true]', // [text*="跳过"] 可能会误触搜索框
-          // snapshotUrls:
-          //   'http://192.168.0.102:8081/i?url=https://github.com/user-attachments/files/26156895/snapshot-1774075006520.zip',
+          snapshotUrls: 'https://i.gkd.li/i/26164589', //https://github.com/user-attachments/files/26164589/file.zip
         },
       ],
     },

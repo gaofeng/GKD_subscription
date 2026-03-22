@@ -18,6 +18,7 @@ export default defineGkdApp({
             '[vid="tv_main_splash_skip" || vid="tv_skip"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/9a9b71b2-0c52-4623-b53b-6dd07d0cbe7c',
           snapshotUrls: [
+            //https://github.com/user-attachments/files/26157098/file.zip
             'https://i.gkd.li/i/26157098', //https://github.com/gaofeng/GKD_subscription/issues/1#issuecomment-4102982486
           ],
         },
@@ -32,6 +33,10 @@ export default defineGkdApp({
           actionDelay: 2000,
           activityIds: 'com.MobileTicket.ui.activity.MainActivity',
           matches: '[vid="iv_notification_close"]',
+          snapshotUrls: [
+            //
+            'https://i.gkd.li/i/26164646', //https://github.com/user-attachments/files/26164646/file.zip
+          ],
         },
       ],
     },

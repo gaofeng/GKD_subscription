@@ -15,8 +15,7 @@ export default defineGkdApp({
         {
           actionCd: 500,
           matches: '[vid="xm_ad_host_count_down_text"][visibleToUser=true]',
-          // snapshotUrls:
-          //   'http://localhost:8081/i?url=http://localhost:8081/snapshot/snapshot-1774077303633.zip',
+          snapshotUrls: 'https://i.gkd.li/i/26164799', //https://github.com/user-attachments/files/26164799/file.zip
         },
       ],
     },
@@ -30,6 +29,24 @@ export default defineGkdApp({
           matches: [
             '[vid="main_tv_sku_discount_tag"]',
             '[vid="main_iv_close"]',
+          ],
+          snapshotUrls: [
+            'https://i.gkd.li/i/26164608', //https://github.com/user-attachments/files/26164608/file.zip
+          ],
+        },
+      ],
+    },
+    {
+      key: 14,
+      name: '全屏广告-签到送金币',
+      rules: [
+        {
+          fastQuery: true,
+          activityIds: 'com.ximalaya.ting.android.host.activity.MainActivity',
+          matches:
+            '[vid="main_album_cover_layout"] > @ImageView[vid="main_point_center_home_dialog_close_iv"]',
+          snapshotUrls: [
+            'https://i.gkd.li/i/26165024', //https://github.com/user-attachments/files/26165024/file.zip
           ],
         },
       ],
