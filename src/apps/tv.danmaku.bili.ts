@@ -21,5 +21,19 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '局部广告-评论区顶部广告',
+      desc: '点击关闭',
+      fastQuery: true,
+      rules: [
+        {
+          activityIds:
+            'com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity',
+          matches: '[desc="close"][visibleToUser=true]',
+          snapshotUrls: 'https://i.gkd.li/i/29927752',
+        },
+      ],
+    },
   ],
 });
