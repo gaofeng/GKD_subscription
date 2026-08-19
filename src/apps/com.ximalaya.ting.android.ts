@@ -193,6 +193,11 @@ export default defineGkdApp({
           exampleUrls: 'https://e.gkd.li/2a7e189b-b935-4bbd-9672-c18f2bf454e9',
           snapshotUrls: 'https://i.gkd.li/i/18326083',
         },
+        {
+          fastQuery: true,
+          activityIds: '.host.activity.MainActivity',
+          matches: '[text*="7天内不再提醒"][visibleToUser=true]',
+        },
       ],
     },
   ],
